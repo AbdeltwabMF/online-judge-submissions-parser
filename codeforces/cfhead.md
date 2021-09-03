@@ -4,7 +4,7 @@
   - [Codeforces](#Codeforces)
   - [Atcoder](#Atcoder)
   - [Spoj](#Spoj)
-  - [License](#LICENSE)
+  - [License](#License)
 ---
 
 ### Codeforces
