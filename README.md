@@ -1,4 +1,5 @@
-#Codeforces Submissions Parser
+
+# Codeforces Submissions Parser
 | #    | Submission ID | Contest ID | Index | Problem Name | Rating | Language  |    Tags    |
 | :--: | :--------: | :-----: | :--: | :-----------------: | :----: | :-------: | :--------: |
 | 930 | [127564667](https://codeforces.com/contest/983/submission/127564667) | 983 | A | [Finite or not?](https://codeforces.com/contest/983/problem/A) | 1700 | GNU C++17 (64) |implementation, math |
@@ -933,4 +934,4 @@
 | 1 | [50467003](https://codeforces.com/gym/239238/submission/50467003) | 239238 | B | [Basic Data Types](https://codeforces.com/gym/239238/problem/B) |  | GNU C++17 | |
 
 
-###Licensed under the [MIT](LICENSE) License.
+### Licensed under the [MIT](LICENSE) License.
