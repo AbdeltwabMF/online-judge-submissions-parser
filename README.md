@@ -1,5 +1,23 @@
+# Online Judges Submissions Parser
 
-# Codeforces Submissions Parser
+## Contents
+  - [Codeforces](#Codeforces)
+  - [Atcoder](#Atcoder)
+  - [Spoj](#Spoj)
+  - [License](#LICENSE)
+---
+
+### Codeforces
+
+Here is my ALL accepted solution to some problems hosted upon codeforces. some of them are public to see, and the others are not.
+
+the submission has two important things.
+  - the link to the problem.
+  - the link to its accepted solution.
+
+and some others.
+
+---
 | #    | Submission ID | Contest ID | Index | Problem Name | Rating | Language  |    Tags    |
 | :--: | :--------: | :-----: | :--: | :-----------------: | :----: | :-------: | :--------: |
 | 930 | [127564667](https://codeforces.com/contest/983/submission/127564667) | 983 | A | [Finite or not?](https://codeforces.com/contest/983/problem/A) | 1700 | GNU C++17 (64) |implementation, math |
@@ -933,5 +951,6 @@
 | 2 | [50467052](https://codeforces.com/gym/239238/submission/50467052) | 239238 | J | [Capital or Small](https://codeforces.com/gym/239238/problem/J) |  | GNU C++17 | |
 | 1 | [50467003](https://codeforces.com/gym/239238/submission/50467003) | 239238 | B | [Basic Data Types](https://codeforces.com/gym/239238/problem/B) |  | GNU C++17 | |
 
+---
 
 ### Licensed under the [MIT](LICENSE) License.

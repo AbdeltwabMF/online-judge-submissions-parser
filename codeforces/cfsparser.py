@@ -2,11 +2,11 @@
 
 import json
 
-with open('submissions.json') as f:
+with open('./codeforces/submissions.json') as f:
     submissions = json.load(f)
 
 if submissions['status'] != 'OK':
-    print('failed to parse!')
+    print('..Oops, something went wrong!')
     exit(0)
 
 accepted_subs = []
@@ -24,23 +24,28 @@ for sub in submissions['result']:
 
         accepted_subs.append([sub['problem']['contestId'], sub['problem']['index'], sub['problem']['name'], sub['id'], sub['problem']['rating'], sub['programmingLanguage'], sub['problem']['tags']])
 
+# sort according to contestId, index, problem_name
 accepted_subs.sort(reverse=True)
 
+# pick the last Accepted submission to the problem if there is more than one according to the submissionId
 for ac in accepted_subs:
     if len(unique_ac) > 0 and ac[0] == unique_ac[-1][1] and ac[1] == unique_ac[-1][2]:
         pass
     else:
         unique_ac.append([ac[3], ac[0], ac[1], ac[2], ac[4], ac[5], ac[6]])
 
+# sort the unique submissions in descending order from the present to the past
 unique_ac.sort(reverse=True);
 
 print('| #    | Submission ID | Contest ID | Index | Problem Name | Rating | Language  |    Tags    |')
 print('| :--: | :--------: | :-----: | :--: | :-----------------: | :----: | :-------: | :--------: |')
 
 count = len(unique_ac)
+# if the contestId <= contest_max_limit then it is a contest, otherwise it is a gym
 contest_max_limit = 9999
 root_url="https://codeforces.com/"
 
+# print the result in markdown fashion
 for ac in unique_ac:
     if ac[1] <= contest_max_limit:
         gymOrcontest = "contest"
