@@ -1,11 +1,3 @@
-# Online Judges Submissions Parser
-
-## Contents
-  - [Codeforces](#Codeforces)
-  - [Atcoder](#Atcoder)
-  - [Spoj](#Spoj)
----
-
 ### Codeforces
 
 Here is my ALL accepted solution to some problems hosted upon codeforces. some of them are public to see, and the others are not.

@@ -1,18 +1,22 @@
 #!/bin/bash
 
-codeforcesdir="$HOME"/OJ-Submissions-Parser/codeforces
-
-echo "pulling codeforces submissions..."
-"$codeforcesdir"/cfpulljson
-sleep 0.5s
+cfdir="$HOME"/OJ-Submissions-Parser/codeforces
+spdir="$HOME"/OJ-Submissions-Parser/spoj
 
 echo "writing README header..."
-cat "$codeforcesdir"/cfhead.md > README.md
+cat head.md > README.md
 sleep 0.5s
 
-echo "writing submissions table..."
-"$codeforcesdir"/cfsparser.py >> README.md
+echo "pulling codeforces submissions..."
+cat "$cfdir"/README.md >> README.md
+"$cfdir"/cfpulljson
+"$cfdir"/cfsparser.py >> README.md
 sleep 0.5s
+
+echo "format spoj submissions..."
+cat "$spdir"/README.md >> README.md
+"$spdir"/gen_input
+"$spdir"/spojparser < "$spdir"/input.in >> README.md
 
 echo "writing README tailer..."
 cat tail.md >> README.md

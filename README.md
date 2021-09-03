@@ -4,8 +4,8 @@
   - [Codeforces](#Codeforces)
   - [Atcoder](#Atcoder)
   - [Spoj](#Spoj)
----
 
+---
 ### Codeforces
 
 Here is my ALL accepted solution to some problems hosted upon codeforces. some of them are public to see, and the others are not.
@@ -949,7 +949,53 @@ and some others.
 | 3 | [50467230](https://codeforces.com/gym/239238/submission/50467230) | 239238 | I | [Table](https://codeforces.com/gym/239238/problem/I) |  | GNU C++17 | |
 | 2 | [50467052](https://codeforces.com/gym/239238/submission/50467052) | 239238 | J | [Capital or Small](https://codeforces.com/gym/239238/problem/J) |  | GNU C++17 | |
 | 1 | [50467003](https://codeforces.com/gym/239238/submission/50467003) | 239238 | B | [Basic Data Types](https://codeforces.com/gym/239238/problem/B) |  | GNU C++17 | |
+---
 
+## Spoj
+
+Here is my ALL accepted solution to some problems hosted upon SPOJ.
+
+---
+| # | Submission ID | Problem Name | Verdict | lang |
+|:-:| :-----------: | :----------: | :-----: | :--: |
+| 38 | 28376179 | [BALLSUM](https://www.spoj.com/problems/BALLSUM) | AC | CPP |
+| 37 | 27459599 | [TIP1](https://www.spoj.com/problems/TIP1) | AC | CPP |
+| 36 | 27458668 | [INVPHI](https://www.spoj.com/problems/INVPHI) | AC | CPP |
+| 35 | 27458581 | [DCEPC12G](https://www.spoj.com/problems/DCEPC12G) | AC | CPP |
+| 34 | 27458401 | [NAJPWG](https://www.spoj.com/problems/NAJPWG) | AC | CPP |
+| 33 | 27458346 | [DCEPCA03](https://www.spoj.com/problems/DCEPCA03) | AC | CPP |
+| 32 | 27449453 | [DIVSUM](https://www.spoj.com/problems/DIVSUM) | AC | CPP |
+| 31 | 27409258 | [ETF](https://www.spoj.com/problems/ETF) | AC | CPP |
+| 30 | 27365921 | [LCMSUM](https://www.spoj.com/problems/LCMSUM) | AC | CPP |
+| 29 | 27275155 | [CNTPRIME](https://www.spoj.com/problems/CNTPRIME) | AC | CPP |
+| 28 | 27273969 | [GSS1](https://www.spoj.com/problems/GSS1) | AC | CPP |
+| 27 | 26921174 | [GIVEAWAY](https://www.spoj.com/problems/GIVEAWAY) | AC | CPP |
+| 26 | 26919026 | [DQUERY](https://www.spoj.com/problems/DQUERY) | AC | CPP |
+| 25 | 26881724 | [LCA](https://www.spoj.com/problems/LCA) | AC | CPP |
+| 24 | 26850538 | [MST](https://www.spoj.com/problems/MST) | 100 | CPP |
+| 23 | 26846913 | [KQUERY](https://www.spoj.com/problems/KQUERY) | AC | CPP |
+| 22 | 26846279 | [INVCNT](https://www.spoj.com/problems/INVCNT) | AC | CPP |
+| 21 | 26835076 | [CAPCITY](https://www.spoj.com/problems/CAPCITY) | AC | CPP |
+| 20 | 26832013 | [SUBMERGE](https://www.spoj.com/problems/SUBMERGE) | AC | CPP |
+| 19 | 26831952 | [TFRIENDS](https://www.spoj.com/problems/TFRIENDS) | AC | CPP |
+| 18 | 26776607 | [LITE](https://www.spoj.com/problems/LITE) | AC | CPP |
+| 17 | 26776502 | [HORRIBLE](https://www.spoj.com/problems/HORRIBLE) | AC | CPP |
+| 16 | 26771689 | [KATHTHI](https://www.spoj.com/problems/KATHTHI) | AC | CPP |
+| 15 | 26730079 | [ARBITRAG](https://www.spoj.com/problems/ARBITRAG) | AC | CPP |
+| 14 | 26720878 | [GONDOR](https://www.spoj.com/problems/GONDOR) | AC | CPP |
+| 13 | 26705899 | [EZDIJKST](https://www.spoj.com/problems/EZDIJKST) | AC | CPP |
+| 12 | 26663159 | [PRIME1](https://www.spoj.com/problems/PRIME1) | AC | CPP |
+| 11 | 26658275 | [PRIMES2](https://www.spoj.com/problems/PRIMES2) | AC | CPP |
+| 10 | 26648225 | [TDKPRIME](https://www.spoj.com/problems/TDKPRIME) | AC | CPP |
+| 9 | 26648214 | [TDPRIMES](https://www.spoj.com/problems/TDPRIMES) | AC | CPP |
+| 8 | 26643149 | [PON](https://www.spoj.com/problems/PON) | AC | CPP |
+| 7 | 26632755 | [PISANO](https://www.spoj.com/problems/PISANO) | AC | CPP |
+| 6 | 26550505 | [STABLEMP](https://www.spoj.com/problems/STABLEMP) | AC | CPP |
+| 5 | 26391685 | [FOODIE](https://www.spoj.com/problems/FOODIE) | AC | CPP |
+| 4 | 26391530 | [KNAPSACK](https://www.spoj.com/problems/KNAPSACK) | AC | CPP |
+| 3 | 25316347 | [MPOW](https://www.spoj.com/problems/MPOW) | AC | CPP |
+| 2 | 25316161 | [CLASSICSEQ](https://www.spoj.com/problems/CLASSICSEQ) | AC | CPP |
+| 1 | 25312338 | [SEQ](https://www.spoj.com/problems/SEQ) | AC | CPP |
 ---
 
 ### Licensed under the [MIT](LICENSE) License.
