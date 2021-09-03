@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./submissions_parser && ./cfsp.py > README.md
