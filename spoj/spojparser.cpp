@@ -56,7 +56,7 @@ int main() {
       if(j == 1)
         cout << " | [" << unique_subs[i][j] << "](" << root_url + unique_subs[i][j] << ")";
       else if(j == 0)
-        cout << " | [" << unique_subs[i][j] << "](" << sol_path + unique_subs[i][1] << ")";
+        cout << " | [" << unique_subs[i][j] << "](" << sol_path + unique_subs[i][1] << ".cpp" << ")";
       else
         cout << " | " << unique_subs[i][j];
     }
