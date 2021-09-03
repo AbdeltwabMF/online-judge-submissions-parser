@@ -1,3 +1,6 @@
 #!/bin/bash
 
-./submissions_parser && ./cfsp.py > README.md
+./submissions_parser
+cat Header.md > README.md
+./cfsp.py >> README.md
+cat Tailer.md >> README.md

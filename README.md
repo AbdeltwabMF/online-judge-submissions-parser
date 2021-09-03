@@ -1,5 +1,6 @@
-| #    | Submission ID | Contest ID | Index |   Problem Name   | Rating |  Language  |     Tags     |
-| :--: | :--------: | :-----: | :---: | :--------------------: | :----: | :--------: | :----------: |
+#Codeforces Submissions Parser
+| #    | Submission ID | Contest ID | Index | Problem Name | Rating | Language  |    Tags    |
+| :--: | :--------: | :-----: | :--: | :-----------------: | :----: | :-------: | :--------: |
 | 930 | [127564667](https://codeforces.com/contest/983/submission/127564667) | 983 | A | [Finite or not?](https://codeforces.com/contest/983/problem/A) | 1700 | GNU C++17 (64) |implementation, math |
 | 929 | [127532002](https://codeforces.com/contest/983/submission/127532002) | 983 | B | [XOR-pyramid](https://codeforces.com/contest/983/problem/B) | 1800 | GNU C++17 (64) |dp |
 | 928 | [127139464](https://codeforces.com/gym/101653/submission/127139464) | 101653 | U | [Top 25](https://codeforces.com/gym/101653/problem/U) |  | GNU C++17 | |
@@ -930,3 +931,6 @@
 | 3 | [50467230](https://codeforces.com/gym/239238/submission/50467230) | 239238 | I | [Table](https://codeforces.com/gym/239238/problem/I) |  | GNU C++17 | |
 | 2 | [50467052](https://codeforces.com/gym/239238/submission/50467052) | 239238 | J | [Capital or Small](https://codeforces.com/gym/239238/problem/J) |  | GNU C++17 | |
 | 1 | [50467003](https://codeforces.com/gym/239238/submission/50467003) | 239238 | B | [Basic Data Types](https://codeforces.com/gym/239238/problem/B) |  | GNU C++17 | |
+
+
+###Licensed under the [MIT](LICENSE) License.

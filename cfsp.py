@@ -34,8 +34,8 @@ for ac in accepted_subs:
 
 unique_ac.sort(reverse=True);
 
-print('| #    | Submission ID | Contest ID | Index |   Problem Name   | Rating |  Language  |     Tags     |')
-print('| :--: | :--------: | :-----: | :---: | :--------------------: | :----: | :--------: | :----------: |')
+print('| #    | Submission ID | Contest ID | Index | Problem Name | Rating | Language  |    Tags    |')
+print('| :--: | :--------: | :-----: | :--: | :-----------------: | :----: | :-------: | :--------: |')
 
 count = len(unique_ac)
 contest_max_limit = 9999
