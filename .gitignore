@@ -1,10 +1,4 @@
-*.json
 head.md
 tail.md
-./codeforces/README.md
-./codeforces/cfparserparams
-./codeforces/submissions.json
-./spoj/README.md
-./spoj/input.in
-./spoj/submissions.txt
-./spoj/spojparser
+codeforces/
+spoj/
