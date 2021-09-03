@@ -1,5 +1,0 @@
-#!/bin/bash
-
-indir="$HOME"/OJ-Submissions-Parser/spoj
-
-cat "$indir"/submissions.txt | grep "^| [0-9]" | awk '{print $1, $2, $3, $7, $8, $9, $10, $15, $16}' | sed "s/| //g; s/ |//g" >> "$indir"/input.in
