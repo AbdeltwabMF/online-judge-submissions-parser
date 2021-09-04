@@ -30,7 +30,7 @@ cd "$uvadir"/solutions
 "$uvadir"/solutions/generate_files
 cd ../../
 cat "$uvadir"/README.md >> README.md
-sed -i "s|(\.\/uva\-oj/|(|g" "$uvadir"/README.md
+sed -i "s|(\/uva\-oj/|(|g" "$uvadir"/README.md
 sleep 0.05s
 
 echo "parsing spoj submissions..."
