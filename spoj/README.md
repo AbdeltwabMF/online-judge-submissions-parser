@@ -5,8 +5,8 @@
 Here is my ALL accepted solution to some problems hosted upon SPOJ.
 
 ---
-| # | Submission ID | Problem Name | Verdict | lang |
-|:-:| :-----------: | :----------: | :-----: | :--: |
+| # | Submission ID | Problem ID | Verdict | lang |
+|:-:| :-----------: | :--------: | :-----: | :--: |
 | 38 | [28376179](spoj/solutions/BALLSUM.cpp) | [BALLSUM](https://www.spoj.com/problems/BALLSUM) | AC | CPP |
 | 37 | [27459599](spoj/solutions/TIP1.cpp) | [TIP1](https://www.spoj.com/problems/TIP1) | AC | CPP |
 | 36 | [27458668](spoj/solutions/INVPHI.cpp) | [INVPHI](https://www.spoj.com/problems/INVPHI) | AC | CPP |

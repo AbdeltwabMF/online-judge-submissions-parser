@@ -47,8 +47,9 @@ int main() {
 
   string sol_path = "spoj/solutions/";
   string root_url = "https://www.spoj.com/problems/";
-  cout << "| # | Submission ID | Problem Name | Verdict | lang |" << endl;
-  cout << "|:-:| :-----------: | :----------: | :-----: | :--: |" << endl;
+
+  cout << "| # | Submission ID | Problem ID | Verdict | lang |" << endl;
+  cout << "|:-:| :-----------: | :--------: | :-----: | :--: |" << endl;
 
   for(int i = 0, c = (int)unique_subs.size(); i < (int)unique_subs.size(); ++i) {
     cout << "| " << c--;

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+IFS=','
+declare -a files=($(cat number_name.txt))
+
+for ((i = 0; i < ${#files[@]}; i++))
+do
+    touch "${files[$i]}"
+done

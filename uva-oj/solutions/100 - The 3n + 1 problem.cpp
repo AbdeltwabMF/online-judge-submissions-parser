@@ -101,4 +101,3 @@ int main()
   int tc = 1; cin >> tc;
   for(int i = 1; i <= tc; ++i) Solve();
 }
-
