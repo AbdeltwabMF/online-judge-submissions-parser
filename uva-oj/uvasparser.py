@@ -33,7 +33,7 @@ counter = len(unique_ac)
 
 for ac in unique_ac:
     print('| ', counter, ' |', sep='', end='')
-    print(' [', ac[0], '](./uva-oj/solutions/', ac[0], '.cpp)', sep='', end=' |')
+    print(' [', ac[0], '](./uva-oj/solutions/', ac[1], '.cpp)', sep='', end=' |')
     print(' [', ac[1], '](', pro_url.format(problem_id=ac[1]), ')', sep='', end=' |')
     print(' ', ac[2], sep='', end=' |')
     print(' ', langs['{}'.format(ac[3])], sep='', end=' |')
