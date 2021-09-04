@@ -26,6 +26,9 @@ echo "parsing uva oj submissions..."
 cat "$uvadir"/uvahead.md > "$uvadir"/README.md
 "$uvadir"/uvajson
 "$uvadir"/uvasparser.py >> "$uvadir"/README.md
+cd "$uvadir"/solutions
+"$uvadir"/solutions/generate_files
+cd ../../
 cat "$uvadir"/README.md >> README.md
 sleep 0.05s
 

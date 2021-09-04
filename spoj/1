@@ -6,6 +6,7 @@
 #include <algorithm>
 #include <vector>
 #include <string>
+#include <sys>
 
 using namespace std;
 
@@ -43,9 +44,9 @@ int main() {
   for(int i = 1; i < (int)submissions.size(); ++i) {
     if(submissions[i][1] != unique_subs.back()[1]) {
       unique_subs.emplace_back(submissions[i]);
-      string str = "touch " + sol_path + "/" + submissions[i][1] + ".cpp";
-      const char* command = str.c_str();
+      string command = "touch " + sol_path + "/" + submissions[i][1];
       system(command);
+      system("ls");
     }
   }
 

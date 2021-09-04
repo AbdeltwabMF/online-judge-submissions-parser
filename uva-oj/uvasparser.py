@@ -6,7 +6,7 @@ import os
 
 cur_dir = os.getcwd()
 
-with open(cur_dir + "/submissions.json") as f:
+with open("./uva-oj/submissions.json") as f:
     submissions = json.load(f)
 
 with urlopen("https://uhunt.onlinejudge.org/api/p") as response:
@@ -32,12 +32,12 @@ for ac in ac_submissions:
 unique_ac.sort(reverse=True)
 
 number_name = {}
-tobe_created = open("./solutions/number_name.txt", "w")
+tobe_created = open("./uva-oj/solutions/number_name.txt", "w")
 
 for name in names:
     if name[0] in ids:
         number_name.update({'{}'.format(name[0]):[name[1], name[2]]})
-        tobe_created.write(str(name[1]) + ' - ' + str(name[2]) + '.cpp,')
+        tobe_created.write(str(name[1]) + '-' + str(name[2]).replace(" ", "") + '.cpp,')
 
 tobe_created.close()
 
@@ -52,7 +52,7 @@ counter = len(unique_ac)
 
 for ac in unique_ac:
     print('| ', counter, ' |', sep='', end='')
-    print(' [', ac[0], '](./uva-oj/solutions/', number_name['{}'.format(ac[1])][0], ' - ', number_name['{}'.format(ac[1])][1] , '.cpp)', sep='', end=' |')
+    print(' [', ac[0], '](./uva-oj/solutions/', number_name['{}'.format(ac[1])][0], '-', '{}'.format(number_name['{}'.format(ac[1])][1]).replace(" ", "") , '.cpp)', sep='', end=' |')
     print(' [', number_name['{}'.format(ac[1])][0], ' - ', number_name['{}'.format(ac[1])][1], '](', prob_url.format(problem_id=ac[1]), ')', sep='', end=' |')
     print(' ', ac[2], sep='', end=' |')
     print(' ', langs['{}'.format(ac[3])], sep='', end=' |')
