@@ -1,9 +1,11 @@
 head.md
 tail.md
-codeforces/README.md
 codeforces/submissions.json
-codeforces/cfparserparams
-spoj/README.md
+codeforces/params
+codeforces/cfhead.md
 spoj/input.in
-spoj/spojparser
+spoj/spojhead.md
+spoj/spojsparser
 spoj/submissions.txt
+atcoder/submissions.json
+atcoder/atchead.md

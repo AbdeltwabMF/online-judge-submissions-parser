@@ -2,24 +2,34 @@
 
 cfdir="$HOME"/OJ-Submissions-Parser/codeforces
 spdir="$HOME"/OJ-Submissions-Parser/spoj
+atcdir="$HOME"/OJ-Submissions-Parser/atcoder
 
 echo "writing README header..."
 cat head.md > README.md
-sleep 0.5s
 
-echo "pulling codeforces submissions..."
+echo "parsing codeforces submissions..."
+cat "$cfdir"/cfhead.md > "$cfdir"/README.md
+"$cfdir"/cfjson
+"$cfdir"/cfsparser.py >> "$cfdir"/README.md
 cat "$cfdir"/README.md >> README.md
-"$cfdir"/cfpulljson
-"$cfdir"/cfsparser.py >> README.md
-sleep 0.5s
+sleep 0.05s
 
-echo "format spoj submissions..."
+echo "parsing atcoder submissions..."
+cat "$atcdir"/atchead.md > "$atcdir"/README.md
+"$atcdir"/atcjson
+"$atcdir"/atcsparser.py >> "$atcdir"/README.md
+cat "$atcdir"/README.md >> README.md
+sleep 0.05s
+
+echo "parsing spoj submissions..."
+cat "$spdir"/spojhead.md > "$spdir"/README.md
+"$spdir"/geninput
+"$spdir"/spojsparser < "$spdir"/input.in >> "$spdir"/README.md
 cat "$spdir"/README.md >> README.md
-"$spdir"/gen_input
-"$spdir"/spojparser < "$spdir"/input.in >> README.md
+sleep 0.05s
 
 echo "writing README tailer..."
 cat tail.md >> README.md
-sleep 0.5s
+sleep 0.05s
 
 echo "Done."

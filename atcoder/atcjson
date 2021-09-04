@@ -1,0 +1,12 @@
+#!/bin/bash
+
+jsondir="$HOME"/OJ-Submissions-Parser/atcoder
+cfgdir="$HOME"/OJ-Submissions-Parser/atcoder
+
+if [[ -f "$cfgdir"/params ]]; then
+  source "$cfgdir"/params
+else
+  exit 1
+fi
+
+curl -s --compressed "https://kenkoooo.com/atcoder/atcoder-api/v3/user/submissions?user=$user_id&from_second=$unix_time" | jq > "$jsondir"/submissions.json
