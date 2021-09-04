@@ -52,7 +52,7 @@ counter = len(unique_ac)
 
 for ac in unique_ac:
     print('| ', counter, ' |', sep='', end='')
-    print(' [', ac[0], '](./uva-oj/solutions/', number_name['{}'.format(ac[1])][0], '-', '{}'.format(number_name['{}'.format(ac[1])][1]).replace(" ", "") , '.cpp)', sep='', end=' |')
+    print(' [', ac[0], '](uva-oj/solutions/', number_name['{}'.format(ac[1])][0], '-', '{}'.format(number_name['{}'.format(ac[1])][1]).replace(" ", "") , '.cpp)', sep='', end=' |')
     print(' [', number_name['{}'.format(ac[1])][0], ' - ', number_name['{}'.format(ac[1])][1], '](', prob_url.format(problem_id=ac[1]), ')', sep='', end=' |')
     print(' ', ac[2], sep='', end=' |')
     print(' ', langs['{}'.format(ac[3])], sep='', end=' |')
