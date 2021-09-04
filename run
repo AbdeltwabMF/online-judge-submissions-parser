@@ -2,6 +2,7 @@
 
 cfdir="$HOME"/OJ-Submissions-Parser/codeforces
 spdir="$HOME"/OJ-Submissions-Parser/spoj
+uvadir="$HOME"/OJ-Submissions-Parser/uva-oj
 atcdir="$HOME"/OJ-Submissions-Parser/atcoder
 
 echo "writing README header..."
@@ -19,6 +20,13 @@ cat "$atcdir"/atchead.md > "$atcdir"/README.md
 "$atcdir"/atcjson
 "$atcdir"/atcsparser.py >> "$atcdir"/README.md
 cat "$atcdir"/README.md >> README.md
+sleep 0.05s
+
+echo "parsing uva oj submissions..."
+cat "$uvadir"/uvahead.md > "$uvadir"/README.md
+"$uvadir"/uvajson
+"$uvadir"/uvasparser.py >> "$uvadir"/README.md
+cat "$uvadir"/README.md >> README.md
 sleep 0.05s
 
 echo "parsing spoj submissions..."

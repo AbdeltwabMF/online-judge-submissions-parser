@@ -1,0 +1,12 @@
+#!/bin/bash
+
+jsondir="$HOME"/OJ-Submissions-Parser/uva-oj
+cfgdir="$HOME"/OJ-Submissions-Parser/uva-oj
+
+if [[ -f "$cfgdir"/params ]]; then
+  source "$cfgdir"/params
+else
+  exit 1
+fi
+
+curl -s --compressed "https://uhunt.onlinejudge.org/api/subs-user/$user_id" | jq > "$jsondir"/submissions.json

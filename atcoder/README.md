@@ -5,7 +5,7 @@
 Here is my ALL accepted solution to some problems hosted upon Atcoder.
 
 ---
-|  #  | Submission ID | contest_id | problem_id | language |
+|  #  | Submission ID | Contest ID | Problem ID | Language |
 | :-: | :-----------: | :--------: | :--------: | :------: |
 | 48 | [24598913](https://atcoder.jp/contests/abc211/submissions/24598913) | abc211 | [abc211_b](https://atcoder.jp/contests/abc211/tasks/abc211_b) | C++ (GCC 9.2.1) |
 | 47 | [24598251](https://atcoder.jp/contests/abc211/submissions/24598251) | abc211 | [abc211_a](https://atcoder.jp/contests/abc211/tasks/abc211_a) | C++ (GCC 9.2.1) |

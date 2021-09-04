@@ -26,7 +26,7 @@ root_url = "https://atcoder.jp/"
 sol_url = root_url + 'contests' + '/' + '{contest_id}' + '/' + 'submissions' + '/' + '{id}'
 pro_url = root_url + 'contests' + '/' + '{contest_id}' + '/' + 'tasks'       + '/' + '{problem_id}'
 
-print('|  #  | Submission ID | contest_id | problem_id | language |')
+print('|  #  | Submission ID | Contest ID | Problem ID | Language |')
 print('| :-: | :-----------: | :--------: | :--------: | :------: |')
 counter = len(unique_ac)
 
